@@ -8,6 +8,6 @@ const {
 
 router.post("/", registerUser);
 router.post("/login", loginUser);
-router.get("/me", registerUser);
+router.get("/me", getMe);
 
 module.exports = router;
